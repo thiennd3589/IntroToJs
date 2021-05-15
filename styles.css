@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif !important;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff8008; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #ffc837,
+        #ff8008
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #ffc837,
+        #ff8008
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Form {
+    background-color: white;
+    width: 50%;
+    padding: 5%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+}
+.input {
+    display: flex;
+    margin: 5px 0;
+}
+
+.input label {
+    flex: 1;
+}
+
+.input input {
+    flex: 4;
+}
+
+button {
+    background: #0085fe;
+    padding: 10px;
+    color: white;
+    float: right;
+    border: none !important;
+    outline: none !important;
+    border-radius: 5px;
+}
+
+.Infor {
+    margin-top: 20px;
+}
